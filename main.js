@@ -26,7 +26,7 @@ const makeWineList = async (wineType) => {
     stars.className = "stars";
     for (let j = 0; j < Math.floor(data[i].rating.average); j++) {
       const starImg = document.createElement("img");
-      starImg.src = "./star.jpg";
+      starImg.src = "https://github.com/k2hmr/js_wine_list/blob/main/star.jpg";
       stars.appendChild(starImg);
     }
     wineImg.src = data[i].image;

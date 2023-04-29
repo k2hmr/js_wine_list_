@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wine_List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loading" class="loaded">
+      <div class="spinner"></div>
+    </div>
+    <form name="form1">
+      <input
+        type="radio"
+        name="wine"
+        value="reds"
+        checked
+        onchange="selectWine(this)"
+      />
+      赤ワイン
+      <input
+        type="radio"
+        name="wine"
+        value="whites"
+        onchange="selectWine(this)"
+      />
+      白ワイン
+      <input
+        type="radio"
+        name="wine"
+        value="sparkling"
+        onchange="selectWine(this)"
+      />
+      スパークリング
+      <input
+        type="radio"
+        name="wine"
+        value="dessert"
+        onchange="selectWine(this)"
+      />
+      デザート
+      <input
+        type="radio"
+        name="wine"
+        value="port"
+        onchange="selectWine(this)"
+      />
+      ポート
+    </form>
+    <ul class="wine_list"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>

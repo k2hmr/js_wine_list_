@@ -3,7 +3,7 @@
   width: 100vw;
   height: 100vh;
   transition: all 1s;
-  background-color: #0bd;
+  background-color: #fffacd;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,6 +41,7 @@ ul {
   display: flex;
 }
 
-.form{
-   z-index: 10;
+form{
+   z-index: 3;
+  　　position: absolute;
  }

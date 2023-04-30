@@ -40,3 +40,7 @@ ul {
 .stars {
   display: flex;
 }
+
+.form{
+   z-index: 10;
+ }
